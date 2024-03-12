@@ -1,0 +1,48 @@
+/* Estilo geral para o corpo das páginas */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #383838;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border-style: none;
+}
+
+h1 {
+    color: rgb(30, 30, 31);
+}
+
+.botao-inicial-incluir,
+.botao-inicial-listar {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    background-color: #007bff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.botao-inicial-incluir:hover,
+.botao-inicial-listar:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}

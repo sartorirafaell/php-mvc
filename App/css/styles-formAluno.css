@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #383838; /* Cor de fundo opcional */
+}
+
+.container {
+    text-align: center;
+    background-color: #fff; /* Cor de fundo do container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form label {
+    margin-bottom: 10px;
+}
+
+.container form input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container form input[type="submit"] {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container form input[type="submit"]:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
